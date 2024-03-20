@@ -67,3 +67,5 @@ $ helm install aws-load-balancer-controller eks/aws-load-balancer-controller \
 ====> 6. Finally, Verify the Deployment are running using the below command:
 
 $ kubectl get deployment -n kube-system aws-load-balancer-controller
+
+=====> Now we can use the load balancer IP to access the running application through the Browser.
